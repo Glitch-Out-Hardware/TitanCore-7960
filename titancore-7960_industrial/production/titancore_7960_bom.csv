@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4",0805,4,100nF,
+C5,CP_Radial_Tantal_D9.0mm_P5.00mm,1,330uF,
+"J1, J3, J4",AMASS_XT30U-F_1x02_P5.0mm_Vertical,3,XT30,
+J2,PinHeader_1x08_P2.54mm_Vertical,1,Pin Header M 01x08,
+"Q1, Q2, Q3, Q4",TO-263-7_TabPin8,4,BTN8982TA,
+"R1, R11, R12, R13, R2, R4, R5, R6, R8, R9",0805,10,10k,
+"R10, R14, R3, R7",0805,4,30k,
+U5,SOIC127P1032X265-20N,1,74HC244,
