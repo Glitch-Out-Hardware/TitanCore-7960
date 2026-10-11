@@ -1445,6 +1445,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2798,6 +2999,12 @@
 		(uuid "bde573e7-f4cf-40cd-9068-5bf2a84aacd0")
 	)
 	(junction
+		(at 39.37 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0502fc6f-8edb-4817-996d-f0b81a504abe")
+	)
+	(junction
 		(at 113.03 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2826,6 +3033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c704fe1-98b2-4ab4-9243-5e435865f5b9")
+	)
+	(junction
+		(at 33.02 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ef65379-180d-4246-8b5c-9f5cb65a000a")
 	)
 	(junction
 		(at 113.03 102.87)
@@ -2870,16 +3083,16 @@
 		(uuid "bc42ab9a-33c9-44bd-af97-2969b5d2841b")
 	)
 	(junction
-		(at 39.37 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7b574f9-9f9d-4177-80c1-9bf3fb8f4f95")
-	)
-	(junction
 		(at 69.85 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db323f56-9e19-4106-954f-3238c94f61ee")
+	)
+	(junction
+		(at 52.07 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8404a6f-9d9f-480e-8ceb-a947a535f37d")
 	)
 	(junction
 		(at 39.37 29.21)
@@ -2939,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 29.21) (xy 33.02 29.21)
+			(xy 33.02 29.21) (xy 41.91 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3199,16 +3412,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 21.59) (xy 39.37 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6107699e-a549-4f61-bb58-9d96625324ee")
-	)
-	(wire
-		(pts
 			(xy 138.43 48.26) (xy 153.67 48.26)
 		)
 		(stroke
@@ -3289,16 +3492,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 39.37 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d062bb-1647-4017-bc1b-cd5313184090")
-	)
-	(wire
-		(pts
 			(xy 113.03 52.07) (xy 121.92 52.07)
 		)
 		(stroke
@@ -3349,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 21.59) (xy 39.37 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934dbf5d-b954-45a5-9c19-47748df65636")
+	)
+	(wire
+		(pts
 			(xy 88.9 127) (xy 91.44 127)
 		)
 		(stroke
@@ -3396,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "99a67c3b-2acd-45fe-b398-c4ac6045ae01")
+	)
+	(wire
+		(pts
+			(xy 52.07 21.59) (xy 55.88 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c43f652-533d-469c-87e5-2d3e75542034")
 	)
 	(wire
 		(pts
@@ -3646,6 +3859,16 @@
 			(type default)
 		)
 		(uuid "f64cce99-ee69-461f-bcd6-d862c7ec4841")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 52.07 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bb7f1b-fba5-4e68-8fed-b5af38e4fe1c")
 	)
 	(wire
 		(pts
@@ -6018,6 +6241,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 45.72 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70ace721-fdc6-4bac-8d25-19de0544673d")
+		(property "Reference" "R15"
+			(at 44.196 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 50.292 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 45.466 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eac17501-01ca-4817-8ac2-5f2d21245774")
+		)
+		(pin "2"
+			(uuid "1ae42511-de77-4f57-be35-aeb2cdc6c041")
+		)
+		(instances
+			(project "titancore-7960_industrial"
+				(path "/742efa3c-2585-473f-9559-a4f38a1ea3b9"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VS")
 		(at 113.03 52.07 0)
 		(unit 1)
@@ -6411,7 +6715,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 45.72 21.59 270)
+		(at 55.88 21.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6422,7 +6726,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ffbd03e-c12f-47df-b5ae-a5c8cd5c43ba")
 		(property "Reference" "#PWR03"
-			(at 41.91 21.59 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6737,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 49.53 21.5899 90)
+			(at 59.69 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6444,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 21.59 0)
+			(at 55.88 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +6759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 21.59 0)
+			(at 55.88 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +6770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 45.72 21.59 0)
+			(at 55.88 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +7029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 29.21 0)
+		(at 33.02 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6735,7 +7039,7 @@
 		(dnp no)
 		(uuid "a081753d-9ba5-4080-bb9e-c644b521734a")
 		(property "Reference" "#PWR015"
-			(at 46.99 35.56 0)
+			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +7050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 32.512 0)
+			(at 33.02 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6756,7 +7060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 29.21 0)
+			(at 33.02 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +7071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 29.21 0)
+			(at 33.02 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6778,7 +7082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 29.21 0)
+			(at 33.02 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,6 +7255,96 @@
 			(project "titancore-7960_industrial"
 				(path "/742efa3c-2585-473f-9559-a4f38a1ea3b9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af04cbc7-82c2-4a0b-91c6-4b8ed69483f5")
+		(property "Reference" "D1"
+			(at 55.88 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 57.404 24.892 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 52.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bbb9237-5a7f-4ae4-a3e2-1982f83e60ca")
+		)
+		(pin "2"
+			(uuid "dceb9ced-6e6b-4f54-8ee9-9fa41805ec43")
+		)
+		(instances
+			(project "titancore-7960_industrial"
+				(path "/742efa3c-2585-473f-9559-a4f38a1ea3b9"
+					(reference "D1")
 					(unit 1)
 				)
 			)
